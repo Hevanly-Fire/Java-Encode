@@ -108,6 +108,8 @@ public class home
           int dar = sc.nextInt();
           newEntry n5 = new newEntry(Username ,5 , dar );
           break;
+        default:
+          expense();
       }
   } 
 }
