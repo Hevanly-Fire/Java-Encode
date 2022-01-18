@@ -1,0 +1,23 @@
+import java.util.*;
+public class categories_expenses {
+    public static void main(String args[])
+    {
+        Scanner sc =  new Scanner(System.in);
+        String arr [] = new String []{"Transportation", "Food", "Household", "Apparel", "Dairy"};
+        ArrayList<Double> amt = new ArrayList<Double>();
+        boolean flag=true;
+        System.out.println("Category");
+        int l = sc.nextInt();
+        String cat = arr[l];
+        System.out.println("Enter the amount");
+        while (flag)
+        {
+           in = sc.nextDouble();
+            if(in == -1)
+              flag = false;
+              else
+              amt.add(in);
+        }
+
+    }
+}

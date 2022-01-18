@@ -3,7 +3,19 @@ public class Main
 {
   public static void main(String args[]) throws Exception
   {
-    home h = new home();
-    h.main();
+    try{
+      home h = new home();
+      h.main();
+      //editEntry edit = new editEntry();
+      //edit.main();
+      /*
+      newEntry nE = new newEntry();
+      nE.main();
+      */
+    }
+    catch (Exception E)
+    {
+      System.out.println("OOPSS! Seems like something went wrong. Please Restart the program.");
+    }
   }
 }
